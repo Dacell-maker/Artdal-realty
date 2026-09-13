@@ -127,7 +127,7 @@ export default function Hero() {
         >
           <h2 className="font-display text-2xl font-normal text-charcoal">Who We Are</h2>
           <p className="mt-2.5 text-sm leading-relaxed text-stone">
-            We help people find properties that match the way they want to live — with
+            We help people find properties that match the way they want to live with
             honest advice, local knowledge and a carefully kept portfolio.
           </p>
           <dl className="mt-6 grid grid-cols-3 gap-4 border-t border-sand pt-6">
