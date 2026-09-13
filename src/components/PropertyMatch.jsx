@@ -20,7 +20,7 @@ export default function PropertyMatch({ onOpen }) {
           <Reveal delay={0.12}>
             <p className="max-w-md text-[15px] leading-relaxed text-stone md:ml-auto md:text-right">
               From modern city apartments to spacious family homes, explore properties
-              selected with different lifestyles in mind — each one visited, checked and
+              selected with different lifestyles in mind each one visited, checked and
               chosen by our own agents.
             </p>
           </Reveal>
