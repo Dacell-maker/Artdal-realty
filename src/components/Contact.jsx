@@ -280,9 +280,6 @@ export default function Contact({ prefill }) {
                       >
                         Send Enquiry
                       </button>
-                      <p className="mt-3 text-xs text-mist">
-                        Frontend demo — submissions are validated in-browser only.
-                      </p>
                     </div>
                   </motion.form>
                 )}
