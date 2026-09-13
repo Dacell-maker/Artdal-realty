@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* Artdal Realty palette — warm ivory, soft beige, charcoal, bronze */
+  --color-ivory: #faf8f4;
+  --color-shell: #f2ede4;
+  --color-sand: #e3dbcc;
+  --color-linen: #efe9df;
+  --color-charcoal: #171410;
+  --color-coal: #211d17;
+  --color-ink: #2b2620;
+  --color-stone: #6b6459;
+  --color-mist: #9a938a;
+  --color-bronze: #b08a4f;
+  --color-bronze-deep: #8f6c3b;
+  --color-bronze-soft: #e6d7bc;
+  --color-clay: #b3543f;
+
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ivory font-sans text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--color-bronze-soft);
+    color: var(--color-charcoal);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-bronze-deep);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+
+  [id] {
+    scroll-margin-top: 110px;
+  }
+}
+
+/* Hide horizontal rail scrollbars while keeping scroll / snap behaviour */
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
