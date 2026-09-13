@@ -44,7 +44,7 @@ export default function FeaturedProperties({ onOpen }) {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-stone">
             Browse homes currently available through Artdal Realty. Filter by intention,
-            location, property type and budget — the collection updates instantly.
+            location, property type and budget, the collection updates instantly.
           </p>
         </Reveal>
 
