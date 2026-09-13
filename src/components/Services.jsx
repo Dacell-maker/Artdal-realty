@@ -6,7 +6,7 @@ const SERVICES = [
   {
     icon: IconKey,
     title: "Property Buying",
-    copy: "Find the right property with guidance throughout the buying process — from first shortlist to signed deed.",
+    copy: "Find the right property with guidance throughout the buying process, from first shortlist to signed deed.",
   },
   {
     icon: IconTag,
@@ -21,7 +21,7 @@ const SERVICES = [
   {
     icon: IconChat,
     title: "Property Consultation",
-    copy: "Get professional guidance when making your next property decision — valuations, areas and long-term value.",
+    copy: "Get professional guidance when making your next property decision, valuations, areas and long-term value.",
   },
 ];
 
